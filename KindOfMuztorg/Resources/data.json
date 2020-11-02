@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1001,
+        "name": "Harley Benton SC-1000",
+        "category": "Electric guitars",
+        "price": 165,
+        "imageName": "harley_benton3",
+        "isAvailable": true,
+        "isFavorite": true,
+        "isHotProduct": true
+    },
+    {
+        "id": 1002,
+        "name": "Harley Benton Vulture",
+        "category": "Electric guitars",
+        "price": 330,
+        "imageName": "harley_benton2",
+        "isAvailable": true,
+        "isFavorite": false,
+        "isHotProduct": false
+    },
+    {
+        "id": 1003,
+        "name": "Harley Benton GH-2",
+        "category": "Electric guitars",
+        "price": 220,
+        "imageName": "harley_benton3",
+        "isAvailable": true,
+        "isFavorite": false,
+        "isHotProduct": true
+    },
+    {
+        "id": 1004,
+        "name": "Gibson Les Paul Custom",
+        "category": "Electric guitars",
+        "price": 2520,
+        "imageName": "les_paul",
+        "isAvailable": true,
+        "isFavorite": true,
+        "isHotProduct": true
+    },
+    {
+        "id": 1005,
+        "name": "Gibson Les Paul White",
+        "category": "Electric guitars",
+        "price": 2720,
+        "imageName": "les_paul2",
+        "isAvailable": false,
+        "isFavorite": false,
+        "isHotProduct": true
+    },
+    {
+        "id": 1006,
+        "name": "Ibanez RG",
+        "category": "Electric guitars",
+        "price": 950,
+        "imageName": "ibanez_rg",
+        "isAvailable": true,
+        "isFavorite": false,
+        "isHotProduct": true
+    },
+    {
+        "id": 1007,
+        "name": "ESP LTD Snakebyte",
+        "category": "Electric guitars",
+        "price": 1800,
+        "imageName": "les_paul2",
+        "isAvailable": true,
+        "isFavorite": false,
+        "isHotProduct": false
+    },
+    {
+        "id": 1008,
+        "name": "ESP E-II",
+        "category": "Electric guitars",
+        "price": 3200,
+        "imageName": "esp_e2",
+        "isAvailable": false,
+        "isFavorite": false,
+        "isHotProduct": false
+    },
+    {
+        "id": 1009,
+        "name": "Gibson Acoustic",
+        "category": "Acoustic guitars",
+        "price": 320,
+        "imageName": "acoustic_guitar",
+        "isAvailable": true,
+        "isFavorite": true,
+        "isHotProduct": true
+    },
+    {
+        "id": 1010,
+        "name": "Ibanez Acoustic",
+        "category": "Acoustic guitars",
+        "price": 560,
+        "imageName": "acoustic_guitar2",
+        "isAvailable": false,
+        "isFavorite": false,
+        "isHotProduct": true
+    },
+    {
+        "id": 1011,
+        "name": "Alesis Nitro Kit",
+        "category": "Electric drums",
+        "price": 250,
+        "imageName": "drum_kit1",
+        "isAvailable": true,
+        "isFavorite": false,
+        "isHotProduct": true
+    },
+    {
+        "id": 1012,
+        "name": "Natal Drum Kit",
+        "category": "Acoustic drums",
+        "price": 410,
+        "imageName": "drum_kit2",
+        "isAvailable": true,
+        "isFavorite": true,
+        "isHotProduct": true
+    },
+    {
+        "id": 1013,
+        "name": "Tama Drum Kit",
+        "category": "Acoustic drums",
+        "price": 700,
+        "imageName": "drum_kit3",
+        "isAvailable": false,
+        "isFavorite": false,
+        "isHotProduct": true
+    }
+]

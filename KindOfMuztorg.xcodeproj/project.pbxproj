@@ -7,23 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F52ABF7C255034C000B3325F /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52ABF7B255034C000B3325F /* ShoppingCart.swift */; };
+		F52ABF812550456300B3325F /* ShoppingCartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52ABF802550456300B3325F /* ShoppingCartRow.swift */; };
+		F52ABF832550484700B3325F /* TotalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52ABF822550484700B3325F /* TotalRow.swift */; };
 		F5356D49254DA3A8009EE95E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D48254DA3A8009EE95E /* AppDelegate.swift */; };
 		F5356D4B254DA3A8009EE95E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D4A254DA3A8009EE95E /* SceneDelegate.swift */; };
-		F5356D4D254DA3A8009EE95E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D4C254DA3A8009EE95E /* ContentView.swift */; };
 		F5356D4F254DA3AC009EE95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5356D4E254DA3AC009EE95E /* Assets.xcassets */; };
 		F5356D52254DA3AC009EE95E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5356D51254DA3AC009EE95E /* Preview Assets.xcassets */; };
 		F5356D55254DA3AC009EE95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5356D53254DA3AC009EE95E /* LaunchScreen.storyboard */; };
+		F5356D5E254DA659009EE95E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F5356D5D254DA659009EE95E /* data.json */; };
+		F5356D64254DA943009EE95E /* esp_snakebyte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D5F254DA942009EE95E /* esp_snakebyte.jpg */; };
+		F5356D66254DA943009EE95E /* harley_benton2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D61254DA942009EE95E /* harley_benton2.jpg */; };
+		F5356D67254DA943009EE95E /* harley_benton3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D62254DA943009EE95E /* harley_benton3.jpg */; };
+		F5356D68254DA943009EE95E /* esp_e2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D63254DA943009EE95E /* esp_e2.jpg */; };
+		F5356D6B254DA94C009EE95E /* ibanez_rg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D69254DA94C009EE95E /* ibanez_rg.jpg */; };
+		F5356D6C254DA94C009EE95E /* les_paul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D6A254DA94C009EE95E /* les_paul.jpg */; };
+		F5356D6E254DA953009EE95E /* les_paul2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D6D254DA953009EE95E /* les_paul2.jpg */; };
+		F5356D72254DAF82009EE95E /* acoustic_guitar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D70254DAF82009EE95E /* acoustic_guitar.jpg */; };
+		F5356D73254DAF82009EE95E /* acoustic_guitar2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D71254DAF82009EE95E /* acoustic_guitar2.jpg */; };
+		F5356D7D254DB28F009EE95E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D7C254DB28F009EE95E /* Data.swift */; };
+		F5356D7F254DB2B3009EE95E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D7E254DB2B3009EE95E /* Product.swift */; };
+		F5356D81254DBA34009EE95E /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D80254DBA34009EE95E /* UserData.swift */; };
+		F5356D84254DBB02009EE95E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D83254DBB02009EE95E /* Home.swift */; };
+		F5356D86254DBE31009EE95E /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D85254DBE31009EE95E /* CategoryRow.swift */; };
+		F5356D89254DBEC5009EE95E /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D88254DBEC5009EE95E /* ProductDetail.swift */; };
+		F5356D8C254DBFEE009EE95E /* drum_kit2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D8A254DBFEE009EE95E /* drum_kit2.jpg */; };
+		F5356D8D254DBFEE009EE95E /* drum_kit1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D8B254DBFEE009EE95E /* drum_kit1.jpg */; };
+		F5356D8F254DBFFF009EE95E /* drum_kit3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D8E254DBFFF009EE95E /* drum_kit3.jpg */; };
+		F5356D91254DCA96009EE95E /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D90254DCA96009EE95E /* ProductList.swift */; };
+		F5356D93254DCABD009EE95E /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D92254DCABD009EE95E /* ProductRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F52ABF7B255034C000B3325F /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
+		F52ABF802550456300B3325F /* ShoppingCartRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartRow.swift; sourceTree = "<group>"; };
+		F52ABF822550484700B3325F /* TotalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalRow.swift; sourceTree = "<group>"; };
 		F5356D45254DA3A8009EE95E /* KindOfMuztorg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindOfMuztorg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5356D48254DA3A8009EE95E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5356D4A254DA3A8009EE95E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5356D4C254DA3A8009EE95E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5356D4E254DA3AC009EE95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5356D51254DA3AC009EE95E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F5356D54254DA3AC009EE95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5356D56254DA3AC009EE95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5356D5D254DA659009EE95E /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		F5356D5F254DA942009EE95E /* esp_snakebyte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = esp_snakebyte.jpg; sourceTree = "<group>"; };
+		F5356D61254DA942009EE95E /* harley_benton2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harley_benton2.jpg; sourceTree = "<group>"; };
+		F5356D62254DA943009EE95E /* harley_benton3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harley_benton3.jpg; sourceTree = "<group>"; };
+		F5356D63254DA943009EE95E /* esp_e2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = esp_e2.jpg; sourceTree = "<group>"; };
+		F5356D69254DA94C009EE95E /* ibanez_rg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ibanez_rg.jpg; sourceTree = "<group>"; };
+		F5356D6A254DA94C009EE95E /* les_paul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = les_paul.jpg; sourceTree = "<group>"; };
+		F5356D6D254DA953009EE95E /* les_paul2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = les_paul2.jpg; sourceTree = "<group>"; };
+		F5356D70254DAF82009EE95E /* acoustic_guitar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = acoustic_guitar.jpg; sourceTree = "<group>"; };
+		F5356D71254DAF82009EE95E /* acoustic_guitar2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = acoustic_guitar2.jpg; sourceTree = "<group>"; };
+		F5356D7C254DB28F009EE95E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F5356D7E254DB2B3009EE95E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F5356D80254DBA34009EE95E /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		F5356D83254DBB02009EE95E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F5356D85254DBE31009EE95E /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		F5356D88254DBEC5009EE95E /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		F5356D8A254DBFEE009EE95E /* drum_kit2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drum_kit2.jpg; sourceTree = "<group>"; };
+		F5356D8B254DBFEE009EE95E /* drum_kit1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drum_kit1.jpg; sourceTree = "<group>"; };
+		F5356D8E254DBFFF009EE95E /* drum_kit3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drum_kit3.jpg; sourceTree = "<group>"; };
+		F5356D90254DCA96009EE95E /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		F5356D92254DCABD009EE95E /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F52ABF7D2550419100B3325F /* Shopping Cart Views */ = {
+			isa = PBXGroup;
+			children = (
+				F52ABF7B255034C000B3325F /* ShoppingCart.swift */,
+				F52ABF802550456300B3325F /* ShoppingCartRow.swift */,
+				F52ABF822550484700B3325F /* TotalRow.swift */,
+			);
+			path = "Shopping Cart Views";
+			sourceTree = "<group>";
+		};
 		F5356D3C254DA3A8009EE95E = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +114,14 @@
 			children = (
 				F5356D48254DA3A8009EE95E /* AppDelegate.swift */,
 				F5356D4A254DA3A8009EE95E /* SceneDelegate.swift */,
-				F5356D4C254DA3A8009EE95E /* ContentView.swift */,
 				F5356D4E254DA3AC009EE95E /* Assets.xcassets */,
 				F5356D53254DA3AC009EE95E /* LaunchScreen.storyboard */,
 				F5356D56254DA3AC009EE95E /* Info.plist */,
+				F5356D82254DBAF2009EE95E /* Home */,
+				F52ABF7D2550419100B3325F /* Shopping Cart Views */,
+				F5356D87254DBEB0009EE95E /* Product Views */,
+				F5356D7B254DB26D009EE95E /* Models */,
+				F5356D5C254DA60C009EE95E /* Resources */,
 				F5356D50254DA3AC009EE95E /* Preview Content */,
 			);
 			path = KindOfMuztorg;
@@ -73,6 +133,55 @@
 				F5356D51254DA3AC009EE95E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5356D5C254DA60C009EE95E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5356D5D254DA659009EE95E /* data.json */,
+				F5356D8B254DBFEE009EE95E /* drum_kit1.jpg */,
+				F5356D8A254DBFEE009EE95E /* drum_kit2.jpg */,
+				F5356D8E254DBFFF009EE95E /* drum_kit3.jpg */,
+				F5356D70254DAF82009EE95E /* acoustic_guitar.jpg */,
+				F5356D71254DAF82009EE95E /* acoustic_guitar2.jpg */,
+				F5356D63254DA943009EE95E /* esp_e2.jpg */,
+				F5356D5F254DA942009EE95E /* esp_snakebyte.jpg */,
+				F5356D61254DA942009EE95E /* harley_benton2.jpg */,
+				F5356D62254DA943009EE95E /* harley_benton3.jpg */,
+				F5356D69254DA94C009EE95E /* ibanez_rg.jpg */,
+				F5356D6A254DA94C009EE95E /* les_paul.jpg */,
+				F5356D6D254DA953009EE95E /* les_paul2.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F5356D7B254DB26D009EE95E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5356D7C254DB28F009EE95E /* Data.swift */,
+				F5356D7E254DB2B3009EE95E /* Product.swift */,
+				F5356D80254DBA34009EE95E /* UserData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5356D82254DBAF2009EE95E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F5356D83254DBB02009EE95E /* Home.swift */,
+				F5356D85254DBE31009EE95E /* CategoryRow.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F5356D87254DBEB0009EE95E /* Product Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5356D88254DBEC5009EE95E /* ProductDetail.swift */,
+				F5356D90254DCA96009EE95E /* ProductList.swift */,
+				F5356D92254DCABD009EE95E /* ProductRow.swift */,
+			);
+			path = "Product Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +242,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5356D72254DAF82009EE95E /* acoustic_guitar.jpg in Resources */,
 				F5356D55254DA3AC009EE95E /* LaunchScreen.storyboard in Resources */,
 				F5356D52254DA3AC009EE95E /* Preview Assets.xcassets in Resources */,
+				F5356D64254DA943009EE95E /* esp_snakebyte.jpg in Resources */,
+				F5356D6C254DA94C009EE95E /* les_paul.jpg in Resources */,
+				F5356D8F254DBFFF009EE95E /* drum_kit3.jpg in Resources */,
 				F5356D4F254DA3AC009EE95E /* Assets.xcassets in Resources */,
+				F5356D68254DA943009EE95E /* esp_e2.jpg in Resources */,
+				F5356D8C254DBFEE009EE95E /* drum_kit2.jpg in Resources */,
+				F5356D66254DA943009EE95E /* harley_benton2.jpg in Resources */,
+				F5356D6B254DA94C009EE95E /* ibanez_rg.jpg in Resources */,
+				F5356D67254DA943009EE95E /* harley_benton3.jpg in Resources */,
+				F5356D8D254DBFEE009EE95E /* drum_kit1.jpg in Resources */,
+				F5356D5E254DA659009EE95E /* data.json in Resources */,
+				F5356D6E254DA953009EE95E /* les_paul2.jpg in Resources */,
+				F5356D73254DAF82009EE95E /* acoustic_guitar2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +268,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5356D81254DBA34009EE95E /* UserData.swift in Sources */,
 				F5356D49254DA3A8009EE95E /* AppDelegate.swift in Sources */,
+				F52ABF812550456300B3325F /* ShoppingCartRow.swift in Sources */,
+				F5356D89254DBEC5009EE95E /* ProductDetail.swift in Sources */,
+				F5356D91254DCA96009EE95E /* ProductList.swift in Sources */,
 				F5356D4B254DA3A8009EE95E /* SceneDelegate.swift in Sources */,
-				F5356D4D254DA3A8009EE95E /* ContentView.swift in Sources */,
+				F52ABF7C255034C000B3325F /* ShoppingCart.swift in Sources */,
+				F5356D7F254DB2B3009EE95E /* Product.swift in Sources */,
+				F5356D86254DBE31009EE95E /* CategoryRow.swift in Sources */,
+				F5356D84254DBB02009EE95E /* Home.swift in Sources */,
+				F5356D93254DCABD009EE95E /* ProductRow.swift in Sources */,
+				F52ABF832550484700B3325F /* TotalRow.swift in Sources */,
+				F5356D7D254DB28F009EE95E /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
