@@ -36,7 +36,18 @@
 		F5356D8F254DBFFF009EE95E /* drum_kit3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5356D8E254DBFFF009EE95E /* drum_kit3.jpg */; };
 		F5356D91254DCA96009EE95E /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D90254DCA96009EE95E /* ProductList.swift */; };
 		F5356D93254DCABD009EE95E /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5356D92254DCABD009EE95E /* ProductRow.swift */; };
+		F5D7CED0255C3B4A00D57F0B /* KindOfMuztorgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D7CECF255C3B4A00D57F0B /* KindOfMuztorgTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D7CED2255C3B4A00D57F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5356D3D254DA3A8009EE95E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5356D44254DA3A8009EE95E;
+			remoteInfo = KindOfMuztorg;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F52ABF7B255034C000B3325F /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
@@ -70,10 +81,20 @@
 		F5356D8E254DBFFF009EE95E /* drum_kit3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drum_kit3.jpg; sourceTree = "<group>"; };
 		F5356D90254DCA96009EE95E /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		F5356D92254DCABD009EE95E /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		F5D7CECD255C3B4A00D57F0B /* KindOfMuztorgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindOfMuztorgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D7CECF255C3B4A00D57F0B /* KindOfMuztorgTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindOfMuztorgTests.swift; sourceTree = "<group>"; };
+		F5D7CED1255C3B4A00D57F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F5356D42254DA3A8009EE95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D7CECA255C3B4A00D57F0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -97,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				F5356D47254DA3A8009EE95E /* KindOfMuztorg */,
+				F5D7CECE255C3B4A00D57F0B /* KindOfMuztorgTests */,
 				F5356D46254DA3A8009EE95E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				F5356D45254DA3A8009EE95E /* KindOfMuztorg.app */,
+				F5D7CECD255C3B4A00D57F0B /* KindOfMuztorgTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +207,15 @@
 			path = "Product Views";
 			sourceTree = "<group>";
 		};
+		F5D7CECE255C3B4A00D57F0B /* KindOfMuztorgTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D7CECF255C3B4A00D57F0B /* KindOfMuztorgTests.swift */,
+				F5D7CED1255C3B4A00D57F0B /* Info.plist */,
+			);
+			path = KindOfMuztorgTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -204,6 +236,24 @@
 			productReference = F5356D45254DA3A8009EE95E /* KindOfMuztorg.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F5D7CECC255C3B4A00D57F0B /* KindOfMuztorgTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D7CED6255C3B4A00D57F0B /* Build configuration list for PBXNativeTarget "KindOfMuztorgTests" */;
+			buildPhases = (
+				F5D7CEC9255C3B4A00D57F0B /* Sources */,
+				F5D7CECA255C3B4A00D57F0B /* Frameworks */,
+				F5D7CECB255C3B4A00D57F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D7CED3255C3B4A00D57F0B /* PBXTargetDependency */,
+			);
+			name = KindOfMuztorgTests;
+			productName = KindOfMuztorgTests;
+			productReference = F5D7CECD255C3B4A00D57F0B /* KindOfMuztorgTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -216,6 +266,10 @@
 				TargetAttributes = {
 					F5356D44254DA3A8009EE95E = {
 						CreatedOnToolsVersion = 11.7;
+					};
+					F5D7CECC255C3B4A00D57F0B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F5356D44254DA3A8009EE95E;
 					};
 				};
 			};
@@ -233,6 +287,7 @@
 			projectRoot = "";
 			targets = (
 				F5356D44254DA3A8009EE95E /* KindOfMuztorg */,
+				F5D7CECC255C3B4A00D57F0B /* KindOfMuztorgTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +316,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5D7CECB255C3B4A00D57F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -284,7 +346,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5D7CEC9255C3B4A00D57F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D7CED0255C3B4A00D57F0B /* KindOfMuztorgTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D7CED3255C3B4A00D57F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5356D44254DA3A8009EE95E /* KindOfMuztorg */;
+			targetProxy = F5D7CED2255C3B4A00D57F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F5356D53254DA3AC009EE95E /* LaunchScreen.storyboard */ = {
@@ -452,6 +530,46 @@
 			};
 			name = Release;
 		};
+		F5D7CED4255C3B4A00D57F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2RMB4UF53;
+				INFOPLIST_FILE = KindOfMuztorgTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yevhen.nimenko.KindOfMuztorgTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KindOfMuztorg.app/KindOfMuztorg";
+			};
+			name = Debug;
+		};
+		F5D7CED5255C3B4A00D57F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2RMB4UF53;
+				INFOPLIST_FILE = KindOfMuztorgTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yevhen.nimenko.KindOfMuztorgTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KindOfMuztorg.app/KindOfMuztorg";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -469,6 +587,15 @@
 			buildConfigurations = (
 				F5356D5A254DA3AC009EE95E /* Debug */,
 				F5356D5B254DA3AC009EE95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D7CED6255C3B4A00D57F0B /* Build configuration list for PBXNativeTarget "KindOfMuztorgTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D7CED4255C3B4A00D57F0B /* Debug */,
+				F5D7CED5255C3B4A00D57F0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
